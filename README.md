@@ -1,4 +1,4 @@
-# MaterialEditor-Tag-Generator
+# MaterialEditor Tag Generator
 A Unity Editor script for automatically generating tags for AI-Shoujo / HS2 MaterialEditor.
 This could make it convenient in scripting manifest.xml in a newly built shader mod.
 
