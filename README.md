@@ -18,9 +18,9 @@ So, the bottom of code now can be like:
 ![2025-05-31_013943](https://github.com/user-attachments/assets/f0bc2dd4-2bfe-4e81-90b6-3e0e5b00ea76)
 
 Then, save this shader file.
-3. Back to Unity Editor's Project window. Select the material using your shader, and you can see a button, namely "Create Tags for AI/HS2 MaterialEditor", on the Inspector window of this material.
+3. Back to Unity Editor's Project window. Select the material using your shader, and you can see a button, namely "Generate Tags for AI/HS2 MaterialEditor", on the Inspector window of this material.
 
-![2025-05-31_013943](https://github.com/user-attachments/assets/3b83890a-1841-41a2-ae3e-067ecab547ce)
+![2025-05-31_014034](https://github.com/user-attachments/assets/583e134c-73ca-4c68-ab17-fcdb8fee2692)
 
 4. Press this button, and it will automatically read the properties in your shader and generate tags for MaterialEditor. The tags will be saved in a new .xml file created in the PATH same as that of this material. Now you've got the tags, but it still need to check:
 
