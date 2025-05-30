@@ -55,3 +55,14 @@ There comes a new way making it convenient since the Generator got updated to v1
 ```
 
 3. Since the name of reference file is exactly same to the shader name, the generated tags will at first check the reference file, and duplicate the <Shader> and <Property> tags that have same names as in the shader file. So the duplicates will appear in the generated tags, and for the other properties without scripted in tags in the reference file, the Generator still do its job based on the shader file.
+
+If the reference file is successfully involved in the generation, the Console will give a message like:
+> Successfully generated ME tags at: Assets\Editor\ME Tag Generator\Test_for_ME_Tag_Generator_ME tags.xml.
+> 
+>    **(The generation got a reference xml file involved: Assets\Editor\ME Tag Generator\Test_for_ME_Tag_Generator.xml.)**
+
+Otherwise:
+
+> Successfully generated ME tags at: Assets\Editor\ME Tag Generator\Test_for_ME_Tag_Generator_ME tags.xml.
+> 
+>    **(The generation didn't use a reference xml file namely: Assets\Editor\ME Tag Generator\Test_for_ME_Tag_Generator.xml.)**
