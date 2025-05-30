@@ -18,7 +18,7 @@ So, the bottom of code now can be like:
 ![2025-05-31_013943](https://github.com/user-attachments/assets/f0bc2dd4-2bfe-4e81-90b6-3e0e5b00ea76)
 
 Then, save this shader file.
-3. Back to Unity Editor's Project window. Select the material using your shader, and you can see a button, namely "Generate Tags for AI/HS2 MaterialEditor", on the Inspector window of this material.
+3. Back to Unity Editor's Project window. Select the material using your shader, and you can see a button, namely "**Generate Tags for AI/HS2 MaterialEditor**", on the Inspector window of this material.
 
 ![2025-05-31_014034](https://github.com/user-attachments/assets/583e134c-73ca-4c68-ab17-fcdb8fee2692)
 
