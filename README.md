@@ -33,7 +33,7 @@ Then, save this shader file.
 - As you see, <AI_MaterialEditor> and <HS2_MaterialEditor> tags are both generated. This is for the compatibility across AI-Shoujo and HoneySelect2.
 
 > [!TIP]
-> There is a way helping to fill the Asset, AssetBundle and DefaultValueAssetBundle attributes. Please move to: [Make a Preset?](). 
+> There is a way helping to fill the Asset, AssetBundle and DefaultValueAssetBundle attributes. Please move to: [Make a Preset?](https://github.com/Blatke/MaterialEditor-Tag-Generator/blob/main/README.md#make-a-preset). 
 
 ## Supplement
 ### Make a Preset?
