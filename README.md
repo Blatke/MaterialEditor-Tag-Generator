@@ -28,9 +28,9 @@ Then, save this shader file.
 
 - The attribute DefaultValue for a Texture type <Property> tag is the texture file name of the default map set in this shader, NOT the map set in this material. If it's not assigned in this shader, its DefaultValue will remain empty.
 
-- The attribute, DefaultValueAssetBundle, for a Texture type <Property> tag is set to "Path_of_AssetBundle_for_Tex" if it has be assigned to a default map. You need to revise it to the correct value.
+- The attribute, DefaultValueAssetBundle, for a Texture type \<Property\> tag is set to "Path_of_AssetBundle_for_Tex" if it has be assigned to a default map. You need to revise it to the correct value.
 
-- As you see, <AI_MaterialEditor> and <HS2_MaterialEditor> tags are both generated. This is for the compatibility across AI-Shoujo and HoneySelect2.
+- As you see, \<AI_MaterialEditor\> and \<HS2_MaterialEditor\> tags are both generated. This is for the compatibility across AI-Shoujo and HoneySelect2.
 
 > [!TIP]
 > There is a way helping to fill the Asset, AssetBundle and DefaultValueAssetBundle attributes. Please move to: [Make a Preset?](https://github.com/Blatke/MaterialEditor-Tag-Generator/blob/main/README.md#make-a-preset). 
@@ -44,7 +44,7 @@ There comes a new way making it convenient since the Generator got updated to v1
 
 ![2025-05-31_045746](https://github.com/user-attachments/assets/f7f1a7aa-fbef-49d7-90f4-bdef13783682)
 
-2. Script the tags, into the reference file, that you would like the Generator transfer to the generated tag file. The <Property> tags have to be between <Shader></Shader> tags, and <Shader> tag has to be between <MaterialEditor></MaterialEditor>, <AI_MaterialEditor></AI_MaterialEditor> or <HS2_MaterialEditor></HS2_MaterialEditor>. For instance:
+2. Script the tags, into the reference file, that you would like the Generator transfer to the generated tag file. The <Property> tags have to be between <Shader></Shader> tags, and <Shader> tag has to be between \<MaterialEditor\>\</MaterialEditor\>, \<AI_MaterialEditor\>\</AI_MaterialEditor\> or \<HS2_MaterialEditor\>\</HS2_MaterialEditor\>. For instance:
 ```
 <AI_MaterialEditor>
   <Shader Name="Test/Test_for_ME_Tag_Generator" AssetBundle="xxxx" Asset="1111">
@@ -54,7 +54,7 @@ There comes a new way making it convenient since the Generator got updated to v1
 </AI_MaterialEditor>
 ```
 
-3. Since the name of reference file is exactly same to the shader name, the generated tags will at first check the reference file, and duplicate the <Shader> and <Property> tags that have same names as in the shader file. So the duplicates will appear in the generated tags, and for the other properties without scripted in tags in the reference file, the Generator still do its job based on the shader file.
+3. Since the name of reference file is exactly same to the shader name, the generated tags will at first check the reference file, and duplicate the \<Shader\> and \<Property\> tags that have same names as in the shader file. So the duplicates will appear in the generated tags, and for the other properties without scripted in tags in the reference file, the Generator still do its job based on the shader file.
 
 If the reference file is successfully involved in the generation, the Console will give a message like:
 > Successfully generated ME tags at: Assets\Editor\ME Tag Generator\Test_for_ME_Tag_Generator_ME tags.xml.
