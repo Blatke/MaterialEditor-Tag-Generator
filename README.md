@@ -3,7 +3,7 @@ A Unity Editor script for automatically generating tags for AI-Shoujo / HS2 Mate
 This could make it convenient in scripting manifest.xml in a newly built shader mod.
 
 ## How to Use
-1. Drag and drop the code file, **ME_Tag_Generator.cs** on the [Release](https://github.com/Blatke/MaterialEditor-Tag-Generator/releases) page, into **Asset/Editor/** folder in your project directory. If you don't have such an Editor folder, just create one in the Asset folder.
+1. Drag and drop the code file, **ME_Tag_Generator.cs** on the [**Release**](https://github.com/Blatke/MaterialEditor-Tag-Generator/releases) page, into **Asset/Editor/** folder in your project directory. If you don't have such an Editor folder, just create one in the Asset folder.
 2. Edit your shader file by a coding tool.
 3. Move to the bottom of the codes, then you see a script like _FallBack "Diffuse"_, or _FallBack "Unlit"_ or something begins with "_FallBack_". Add a new line below this "_FallBack_" and put the following script in this new line:
 
