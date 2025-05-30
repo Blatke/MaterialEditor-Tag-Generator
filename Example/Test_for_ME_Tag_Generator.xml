@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+  <AI_MaterialEditor>
+    <Shader Name="Test/Test_for_ME_Tag_Generator" AssetBundle="xxxx" Asset="1111">
+      <Property Name="MainTex" Type="Texture" DefaultValue="fff" DefaultValueAssetBundle="vfvbverer" />
+    </Shader>
+  </AI_MaterialEditor>
