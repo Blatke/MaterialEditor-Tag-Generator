@@ -70,4 +70,25 @@ Otherwise:
 4. If the shader preset file is not named by using correct shader name, the Generator can also check if a namely **shader.xml** file exists in the current folder to read.
 
 #### In Addition
-Besides a shader preset, you can use a **mod.xml or mod.sxml **file as mod preset in the current folder to duplicate the mod information tags, such like \<guid\>, into the generated xml file. Such this file is the setting document of mod building designated by hooh Modding Tools.
+Besides a shader preset, you can use a **mod.xml or mod.sxml** file as mod preset in the current folder to duplicate the mod information tags, such like \<guid\>, into the generated xml file. Such this file is the setting document of mod building designated by hooh Modding Tools.
+
+After the v1.0.3 update, you can choose to put shader preset tags into mod.xml or mod.sxml file, and it could be like:
+```
+<packer>
+    <guid>id.qui.mollit</guid>
+    <name>ME Tag Generator</name>
+    <version>0.0.2</version>
+    <author>Bl@ke</author>
+    <description>ME_Tag_Generator</description>
+    <bundles>
+        <folder auto-path="prefabs" from="output" filter="*.?\.prefab" />
+    </bundles>
+    <build />
+
+    <MaterialEditor>
+    <Shader Name="Test/Test_for_ME_Tag_Generator" AssetBundle="" Asset="">
+      <Property Name="Color" Type="Color" DefaultValue="1, 1, 1, 1" />
+    </Shader>
+  </MaterialEditor>
+</packer>
+```
