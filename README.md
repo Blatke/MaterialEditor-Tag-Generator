@@ -22,7 +22,7 @@ Then, save this shader file.
 
 ![2025-05-31_014034](https://github.com/user-attachments/assets/583e134c-73ca-4c68-ab17-fcdb8fee2692)
 
-4. Press this button, and it will automatically read the properties in your shader and generate tags for MaterialEditor. The tags will be saved in a new .xml file, namely **_manifest_ShaderName.xml_**, created at the PATH same as that of this material. Now you've got the tags, but it still need to check:
+4. Press this button, and it will automatically read the properties in your shader and generate tags for MaterialEditor. The tags will be saved in a new .xml file, namely **_manifest_ShaderName.xml_**, created in a folder "**manifest**", which will be also created if not yet exists. Now you've got the tags, but it still need to check:
 
 - The attributes, Asset and AssetBundle, in a \<Shader\> tag will be filled blank, and you need to revise them to the correct values.
 
